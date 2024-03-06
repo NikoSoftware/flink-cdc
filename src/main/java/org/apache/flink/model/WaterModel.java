@@ -16,6 +16,11 @@ public class WaterModel {
 
     public Integer hum;
 
+    private Integer time;
 
-
+    public WaterModel(String name, Integer tem, Integer hum) {
+        this.name = name;
+        this.tem = tem;
+        this.hum = hum;
+    }
 }
